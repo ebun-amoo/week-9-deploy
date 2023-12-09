@@ -9,7 +9,7 @@ vectorizer = joblib.load('bow.pkl')
 
 @app.route('/')
 def home():
-    return 'hi'
+    return 'Welcome to my Sentiment Model Prediction'
 
 # create a route that manages user request and does sentiment prediction
 @app.route('/predict', methods=['POST'])
